@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+        ServerAdmin //usuario//@//dominio//
+        ServerName www.//dominio//
+
+        DocumentRoot /srv/www///usuario//
+        <Directory /var/www///usuario//>
+                Options Indexes FollowSymLinks MultiViews
+                AllowOverride None
+        </Directory>
+</VirtualHost>

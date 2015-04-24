@@ -1,0 +1,10 @@
+<VirtualHost *:80>
+        ServerAdmin //usuario//@//dominio//
+        ServerName mysql.//dominio//
+
+        DocumentRoot /usr/share/phpmyadmin/
+
+        <Directory /usr/share/phpmyadmin/>
+                Options Indexes FollowSymLinks MultiViews
+        </Directory>
+</VirtualHost>

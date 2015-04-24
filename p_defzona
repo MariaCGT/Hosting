@@ -1,0 +1,17 @@
+$ORIGIN //dominio//.
+$TTL 86400
+
+@       IN      SOA     hosting admin (
+                20141125 ; Serial
+                604800 ; Refresh
+                86400 ; Retry
+                2419200 ; Expire
+                604800 ; minimum TTL
+)
+
+@       IN      NS      hosting
+
+hosting         IN      A       172.22.200.208
+www             IN      CNAME   hosting
+ftp             IN      CNAME   hosting
+mysql           IN      CNAME   hosting

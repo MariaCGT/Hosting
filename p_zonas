@@ -1,0 +1,4 @@
+zone "//dominio//" {
+        type master;
+        file "db.//dominio//";
+};
